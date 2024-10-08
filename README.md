@@ -13,14 +13,7 @@ updated by 20241008
 
 # Methods
 [1] Bag of States: A Non-sequential Approach to Video-based Engagement Measurement(arxiv’2023）[[paper]](https://arxiv.org/pdf/2301.06730)
-<!-- 
-Keyword summary：
-video-based, non-sequential，two-stage Method, video segments = bags of behavioral and emotional states, apply K-means to generate codewords with K-means++ for cluster center initialization
 
-Text description:
-Ali Abedi et al proposed a two-stage method named Bag-of-States (BoS), which analyzes only the occurrence of Behavioral and affective states. 
-Video is firstly divided into equal-length segments, then totally 49 behavioral and affective features were extracted from each segment, including those related to emotions, blink rate, gaze direction, head and wrist positions and poses. After that, the K-means algorithm was used to cluster the feature vectors to create a codebook where the cluster centers served as codewords and each video segment was mapped to a codeword, with the video sample represented by a histogram of codewords.
--->
 
 # Results
 
