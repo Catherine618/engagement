@@ -26,13 +26,13 @@ updated by 20241008
 | Methods | Accuracy | Precision | Recall | F1 | Params | MSE|
 | ---- | ---- |---- |---- |---- |---- |---- |
 | BoS [1] | 66.58 | - |-|-|-|
-|Four-step approach[2]| -|-|-|-|0.0386|
+|Four-step approach[2]| -|-|-|-|-|0.0386|
 
 
 ## EmotiW-EP Dataset
 | Methods | Accuracy | Precision | Recall | F1 | Params | MSE|
 | ---- | ---- |---- |---- |---- |---- |---- |
-|Four-step approach[2]| -|-|-|-|0.0610|
+|Four-step approach[2]| -|-|-|-|-|0.0610|
 
 
 
