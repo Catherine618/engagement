@@ -13,7 +13,7 @@ updated by 20241008
 
 # Methods
 [1] Bag of States: A Non-sequential Approach to Video-based Engagement Measurement(arxiv’2023）[[paper]](https://arxiv.org/pdf/2301.06730)
-
+[2] Predicting Student Engagement Using Sequential Ensemble Model(IEEE Transactions on Learning Technologies'2023)[[paper]](https://ieeexplore.ieee.org/abstract/document/10360221)
 
 # Results
 
@@ -23,9 +23,16 @@ updated by 20241008
 | BoS [1] | 0.93 | 0.93 |0.91|0.95|
 
 ## DAiSEE Dataset
-| Methods | Accuracy | Precision | Recall | F1 | Params | 
-| ---- | ---- |---- |---- |---- |---- |
-| BoS [1] | 66.58 | - |-|-|
+| Methods | Accuracy | Precision | Recall | F1 | Params | MSE|
+| ---- | ---- |---- |---- |---- |---- |---- |
+| BoS [1] | 66.58 | - |-|-|-|
+|Four-step approach[2]| -|-|-|-|0.0386|
+
+
+## EmotiW-EP Dataset
+| Methods | Accuracy | Precision | Recall | F1 | Params | MSE|
+| ---- | ---- |---- |---- |---- |---- |---- |
+|Four-step approach[2]| -|-|-|-|0.0610|
 
 
 
