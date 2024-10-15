@@ -1,6 +1,6 @@
 # engagement
 Engagement Prediction
-updated by 20241008
+updated by 20241015
 
 # Dataset
 - EngageNet: Do I Have Your Attention: A Large Scale Engagement Prediction Dataset and Baselines [[paper]](https://arxiv.org/pdf/2302.00431)
@@ -16,6 +16,8 @@ updated by 20241008
 
 [2] Predicting Student Engagement Using Sequential Ensemble Model(IEEE Transactions on Learning Technologies'2023)[[paper]](https://ieeexplore.ieee.org/abstract/document/10360221)
 
+[3] Three-dimensional DenseNet self-attention neural network for automatic detection of student’s engagement(Applied Intelligence'2022)[[paper]](https://link.springer.com/content/pdf/10.1007/s10489-022-03200-4.pdf)
+
 # Results
 
 ## IIITB Online SE Dataset
@@ -28,12 +30,15 @@ updated by 20241008
 | ---- | ---- |---- |---- |---- |---- |---- |
 | BoS [1] | 66.58 | - |-|-|-|
 |Four-step approach[2]| -|-|-|-|-|0.0386|
+|DenseAttNet[3]| 62.15|-|-|0.60|-|0.0347|
+
 
 
 ## EmotiW-EP Dataset
 | Methods | Accuracy | Precision | Recall | F1 | Params | MSE|
 | ---- | ---- |---- |---- |---- |---- |---- |
 |Four-step approach[2]| -|-|-|-|-|0.0610|
+|DenseAttNet[3]| -|-|-|-|-|0.0877|
 
 
 
